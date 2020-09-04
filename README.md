@@ -1,5 +1,5 @@
 # Hotplate
-A program to solve the hotplate problem.
+A program to solve the hotplate problem in a serial fashion.
 
 The hotplate problem requires computing a solution for the steady
 state heat equation in a 2D rectangular region.  
@@ -7,8 +7,6 @@ The physical region, and the boundary conditions, are described by
 this diagram:
 
 ![image1](picture1.png)
-
-
 A common way to initialize the interior points of the grid is to set them
 all to the average of all the values along the edges.  As the computation
 progresses, the interior points are altered as described below.
@@ -61,13 +59,14 @@ yield no changes larger than epsilon at any grid point.
 
 ### Output
 To avoid large output, we will display only iterations that has the power of 2 where the the maximum difference is greater than epsilon. A sample is shown below;
-num_rows = 500
-num_cols = 500
-top_temp = 100
-left_temp = 200
-right_temp = 300
-bottom_temp = 400
-epsilon = 0.01
+Given
+* num_rows = 500
+* num_cols = 500
+* top_temp = 100
+* left_temp = 200
+* right_temp = 300
+* bottom_temp = 400
+* epsilon = 0.01
 
 ![output](output.png)
 
