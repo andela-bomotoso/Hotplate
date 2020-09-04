@@ -1,5 +1,5 @@
 # Hotplate
-A program to solve the hotplate problem.
+A program to solve the hotplate problem in a serial fashion.
 
 The hotplate problem requires computing a solution for the steady
 state heat equation in a 2D rectangular region.  
