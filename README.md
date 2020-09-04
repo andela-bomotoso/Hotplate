@@ -7,7 +7,7 @@ grid of values and are widely applicable in many areas.
 The physical region, and the boundary conditions, are described by
 this diagram:
 
-![image1](image1.PNG)
+![image1](picture1.png)
 
 
 Note that 0 and 100 are merely sample temperatures.
@@ -21,7 +21,7 @@ named W is used to record the temperature.  The correspondence between
 array indices and locations in the region is suggested by giving the
 indices of the four corners:
 
-![image2](image2.PNG)
+![image2](picture2.png)
 
 The steady state solution to the discrete heat equation satisfies the
 following condition at an interior grid point:
